@@ -4,7 +4,8 @@
 let http = require('http'),
     fs = require('fs'),
     path = require('path'),
-    mime = require('mime');
+    mime = require('mime'),
+    socketio = require('socket.io');
 
 let cache = {};
 
@@ -60,5 +61,10 @@ function serverStatic(response, cache, absPath) {
         })
     }
 }
+
+
+let chatServer = require('./lib/chat_server');
+chatServer.listen(server);
+
 
 
