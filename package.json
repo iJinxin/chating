@@ -1,0 +1,24 @@
+{
+  "name": "chating",
+  "version": "1.0.0",
+  "description": "chating room",
+  "main": "index.js",
+  "dependencies": {
+    "mime": "^2.2.0",
+    "socket.io": "^2.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iJinxin/chating.git"
+  },
+  "author": "jinxin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iJinxin/chating/issues"
+  },
+  "homepage": "https://github.com/iJinxin/chating#readme"
+}
